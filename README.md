@@ -9,7 +9,7 @@ Example
 ```python
 
         import sys
-        from termcolor import colored, cprint
+        from xcolors import colored, cprint
 
         text = colored('Hello, World!', 'red', attrs=['reverse', 'blink'])
         print(text)
