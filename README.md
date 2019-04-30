@@ -5,7 +5,8 @@
 
 Example
 =======
-    ::
+
+```python
 
         import sys
         from termcolor import colored, cprint
@@ -22,6 +23,7 @@ Example
             cprint(i, 'magenta', end=' ')
 
         cprint("Attention!", 'red', attrs=['bold'], file=sys.stderr)
+```
 
 Text Properties
 ===============
